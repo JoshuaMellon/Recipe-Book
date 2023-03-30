@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "BRtswwqvKFAFtFnpM41CiBd8JErNEv5GukIZg2MpzUuu71xjx2SVyD+nVg/9ndCrip8xqRi4g/9Tvy2XRn8shA==",
+  "dgSpecHash": "0TAjf3bBpxX9fvTOyaW6t0RY2q2jOBqIiKNLsHedp8wD/lyDw3rBKsP0rLvCB1HWHj7QbVu9mqStxRmBuUq8Cw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Mello\\OneDrive\\Desktop\\Recipe-Book\\webapi\\webapi.csproj",
+  "projectFilePath": "C:\\Users\\Mello\\OneDrive\\Desktop\\Recipe-Book\\webapi\\RecipeBook.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Mello\\.nuget\\packages\\awssdk.core\\3.7.100.14\\awssdk.core.3.7.100.14.nupkg.sha512",
     "C:\\Users\\Mello\\.nuget\\packages\\awssdk.securitytoken\\3.7.100.14\\awssdk.securitytoken.3.7.100.14.nupkg.sha512",

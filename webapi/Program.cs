@@ -1,4 +1,10 @@
+using webapi.Models;
+
 var builder = WebApplication.CreateBuilder(args);
+
+// Add services to the container.
+builder.Services.Configure<RecipeBookDatabaseSettings>(
+    builder.Configuration.GetSection("RecipeBookDatabase"));
 
 // Add services to the container.
 

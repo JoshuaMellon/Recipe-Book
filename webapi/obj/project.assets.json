@@ -1206,9 +1206,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Mello\\OneDrive\\Desktop\\Recipe-Book\\webapi\\webapi.csproj",
-      "projectName": "webapi",
-      "projectPath": "C:\\Users\\Mello\\OneDrive\\Desktop\\Recipe-Book\\webapi\\webapi.csproj",
+      "projectUniqueName": "C:\\Users\\Mello\\OneDrive\\Desktop\\Recipe-Book\\webapi\\RecipeBook.csproj",
+      "projectName": "RecipeBook",
+      "projectPath": "C:\\Users\\Mello\\OneDrive\\Desktop\\Recipe-Book\\webapi\\RecipeBook.csproj",
       "packagesPath": "C:\\Users\\Mello\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\Mello\\OneDrive\\Desktop\\Recipe-Book\\webapi\\obj\\",
       "projectStyle": "PackageReference",
