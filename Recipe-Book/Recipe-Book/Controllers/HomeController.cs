@@ -13,9 +13,9 @@ namespace Recipe_Book.Controllers
             _logger = logger;
         }
 
-        public string Index()
+        public IActionResult Index()
         {
-            return "Hello world!";
+            return View();
         }
 
         public IActionResult Privacy()

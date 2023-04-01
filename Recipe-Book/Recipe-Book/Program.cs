@@ -12,6 +12,7 @@ builder.Services.AddSingleton<RecipeService>();
 
 // Add services to the container.
 
+builder.Services.AddControllersWithViews();
 
 builder.Services.AddControllers()
     .AddJsonOptions(
