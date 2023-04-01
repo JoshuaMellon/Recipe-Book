@@ -48,3 +48,15 @@ C:\Users\Mello\OneDrive\Desktop\Recipe-Book\Recipe-Book\Recipe-Book\obj\Debug\ne
 C:\Users\Mello\OneDrive\Desktop\Recipe-Book\Recipe-Book\Recipe-Book\obj\Debug\net6.0\Recipe-Book.pdb
 C:\Users\Mello\OneDrive\Desktop\Recipe-Book\Recipe-Book\Recipe-Book\obj\Debug\net6.0\Recipe-Book.genruntimeconfig.cache
 C:\Users\Mello\OneDrive\Desktop\Recipe-Book\Recipe-Book\Recipe-Book\obj\Debug\net6.0\ref\Recipe-Book.dll
+C:\Users\Mello\OneDrive\Desktop\Recipe-Book\Recipe-Book\Recipe-Book\bin\Debug\net6.0\Auth0.AspNetCore.Authentication.dll
+C:\Users\Mello\OneDrive\Desktop\Recipe-Book\Recipe-Book\Recipe-Book\bin\Debug\net6.0\Auth0.AuthenticationApi.dll
+C:\Users\Mello\OneDrive\Desktop\Recipe-Book\Recipe-Book\Recipe-Book\bin\Debug\net6.0\Auth0.Core.dll
+C:\Users\Mello\OneDrive\Desktop\Recipe-Book\Recipe-Book\Recipe-Book\bin\Debug\net6.0\Microsoft.AspNetCore.Authentication.OpenIdConnect.dll
+C:\Users\Mello\OneDrive\Desktop\Recipe-Book\Recipe-Book\Recipe-Book\bin\Debug\net6.0\Microsoft.IdentityModel.Abstractions.dll
+C:\Users\Mello\OneDrive\Desktop\Recipe-Book\Recipe-Book\Recipe-Book\bin\Debug\net6.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\Mello\OneDrive\Desktop\Recipe-Book\Recipe-Book\Recipe-Book\bin\Debug\net6.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\Mello\OneDrive\Desktop\Recipe-Book\Recipe-Book\Recipe-Book\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\Mello\OneDrive\Desktop\Recipe-Book\Recipe-Book\Recipe-Book\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\Mello\OneDrive\Desktop\Recipe-Book\Recipe-Book\Recipe-Book\bin\Debug\net6.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\Mello\OneDrive\Desktop\Recipe-Book\Recipe-Book\Recipe-Book\bin\Debug\net6.0\Newtonsoft.Json.dll
+C:\Users\Mello\OneDrive\Desktop\Recipe-Book\Recipe-Book\Recipe-Book\bin\Debug\net6.0\System.IdentityModel.Tokens.Jwt.dll
