@@ -1,5 +1,7 @@
 ﻿using MongoDB.Bson;
 using MongoDB.Bson.Serialization.Attributes;
+using ThirdParty.Json.LitJson;
+using System.Text.Json.Serialization;
 
 namespace Recipe_Book.Models
 {
@@ -12,6 +14,7 @@ namespace Recipe_Book.Models
         // Recipe key points
 
         [BsonElement("Name")]
+        [JsonPropertyName("Name")]
         public string RecipeName { get; set; } = null!;
 
         public decimal PriceOfRecipe { get; set; }

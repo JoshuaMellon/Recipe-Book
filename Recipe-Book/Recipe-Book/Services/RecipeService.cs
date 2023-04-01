@@ -33,7 +33,7 @@ namespace Recipe_Book.Services
         public async Task CreateAsync(Recipe newRecipe) => await _recipesCollection.InsertOneAsync(newRecipe);
 
         // Declare task for updating a  recipe within the collectio
-        public async Task UpdatedAsync(string id, Recipe updatedRecipe) => await _recipesCollection.ReplaceOneAsync(x => x.ID == id, updatedRecipe);
+        public async Task UpdateAsync(string id, Recipe updatedRecipe) => await _recipesCollection.ReplaceOneAsync(x => x.ID == id, updatedRecipe);
 
         // Declare task for removing a recipe within the collectio
         public async Task RemoveAsync(string id) => await _recipesCollection.DeleteOneAsync(x => x.ID == id);

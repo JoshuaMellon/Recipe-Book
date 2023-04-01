@@ -1,4 +1,5 @@
 using Recipe_Book.Models;
+using Recipe_Book.Services;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -6,9 +7,16 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.Configure<RecipeBookDatabaseSettings>(
     builder.Configuration.GetSection("RecipeBookDatabase"));
 
+// Add RecipeService to DI for contructor injection for the consuming classes - https://mongodb.github.io/mongo-csharp-driver/2.14/reference/driver/connecting/#re-use
+builder.Services.AddSingleton<RecipeService>();
+
 // Add services to the container.
 
-builder.Services.AddControllers();
+
+builder.Services.AddControllers()
+    .AddJsonOptions(
+        options => options.JsonSerializerOptions.PropertyNamingPolicy = null);
+
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
