@@ -27,15 +27,15 @@ namespace Recipe_Book.Services
         public async Task<List<Recipe>> GetAsync() => await _recipesCollection.Find(_ => true).ToListAsync();
         
         // Declare task for getting all the 'Recipes' within the colleciton and convert to a list
-        public async Task<Recipe?> GetAsync(string id) => await _recipesCollection.Find(x => x.ID == id).FirstOrDefaultAsync();
+        public async Task<Recipe?> GetAsync(string id) => await _recipesCollection.Find(x => x.Id == id).FirstOrDefaultAsync();
 
         // Declare task for creating a new recipe within the collection
         public async Task CreateAsync(Recipe newRecipe) => await _recipesCollection.InsertOneAsync(newRecipe);
 
         // Declare task for updating a  recipe within the collectio
-        public async Task UpdateAsync(string id, Recipe updatedRecipe) => await _recipesCollection.ReplaceOneAsync(x => x.ID == id, updatedRecipe);
+        public async Task UpdateAsync(string id, Recipe updatedRecipe) => await _recipesCollection.ReplaceOneAsync(x => x.Id == id, updatedRecipe);
 
         // Declare task for removing a recipe within the collectio
-        public async Task RemoveAsync(string id) => await _recipesCollection.DeleteOneAsync(x => x.ID == id);
+        public async Task RemoveAsync(string id) => await _recipesCollection.DeleteOneAsync(x => x.Id == id);
     }
 }

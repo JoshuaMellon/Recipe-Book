@@ -33,7 +33,7 @@ namespace Recipe_Book.Controllers
         {
             await _recipeService.CreateAsync(newRecipe);
 
-            return CreatedAtAction(nameof(Get), new { id = newRecipe.ID}, newRecipe);
+            return CreatedAtAction(nameof(Get), new { id = newRecipe.Id}, newRecipe);
         }
 
         [HttpPut("{id:length(24)}")]
@@ -46,7 +46,7 @@ namespace Recipe_Book.Controllers
                 return NotFound();
             }
 
-            updatedRecipe.ID = id;
+            updatedRecipe.Id = id;
 
             await _recipeService.UpdateAsync(id, updatedRecipe);
 

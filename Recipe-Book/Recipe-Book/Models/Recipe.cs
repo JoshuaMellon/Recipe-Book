@@ -5,11 +5,12 @@ using System.Text.Json.Serialization;
 
 namespace Recipe_Book.Models
 {
+    [BsonIgnoreExtraElements]
     public class Recipe
     {
         [BsonId]
         [BsonRepresentation(BsonType.ObjectId)]
-        public string? ID { get; set; }
+        public string? Id { get; set; }
 
         // Recipe key points
 
@@ -23,27 +24,27 @@ namespace Recipe_Book.Models
 
         // Recipe values
 
-        public decimal Calories { get; set; }
+        //public decimal Calories { get; set; }
 
-        public decimal Fat { get; set; }
+        //public decimal Fat { get; set; }
 
-        public decimal Sugars { get; set; }
+        //public decimal Sugars { get; set; }
 
-        public decimal Fibre { get; set; }
+        //public decimal Fibre { get; set; }
 
-        public decimal Protein { get; set; }
+        //public decimal Protein { get; set; }
 
-        public decimal Salt { get; set; }
+        //public decimal Salt { get; set; }
 
-        // Recipe description
+        //// Recipe description
 
-        public string CookingInstructions { get; set; } = null!;
+        //public string CookingInstructions { get; set; } = null!;
 
-        public string SkillLevel { get; set; } = null!;
+        //public string SkillLevel { get; set; } = null!;
 
-        public decimal TimeToCook { get; set; }
+        //public decimal TimeToCook { get; set; }
 
-        public decimal TimeToPrep { get; set; }
+        //public decimal TimeToPrep { get; set; }
 
     }
 }
