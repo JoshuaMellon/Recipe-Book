@@ -18,8 +18,17 @@ namespace Recipe_Book.Controllers
             return View();
         }
 
+        public IActionResult About()
+        {
+            return View();
+        }
+
         public IActionResult Privacy()
         {
+            return View();
+        }
+
+        public IActionResult Account() {
             return View();
         }
 
